@@ -1,0 +1,22 @@
+{
+  "name": "magic-function",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TinyWhere/magic-function-js/issues"
+  },
+  "homepage": "https://github.com/TinyWhere/magic-function-js#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "npx prettier --write src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TinyWhere/magic-function-js.git"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
