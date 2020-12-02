@@ -17,7 +17,12 @@ Array.prototype.remove = function (item) {
 /**
  * 为window.location 添加查询 params 的方法
  *
+ * @deprecated 现代浏览器已经提供了从 URL 解析 params 的函数
+ * @see https://developer.mozilla.org/zh-CN/docs/Web/API/URL/searchParams
+ * @see https://developer.mozilla.org/zh-CN/docs/Web/API/URLSearchParams/get
+ *
  * @param b 接收一个字符串
+ *
  * @return null|string
  */
 window.location.query = function (b) {
